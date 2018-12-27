@@ -1,80 +1,80 @@
-<p align="center">
-    <h2 align="center">Violet Jekyll Template - <a href="http://sergiokopplin.github.io/violet/">Demo</a> · <a href="https://travis-ci.org/sergiokopplin/violet"><img src="https://travis-ci.org/sergiokopplin/violet.svg?branch=gh-pages" alt="Build Status" /></a></h2>
-</p>
+# Jekyll Instagram Portfolio Theme
 
-<p align="center">A purple theme for girls and boys.</p>
+Clean, minimalistic and responsive portfolio theme for Jekyll powered by Bootstrap 4.
+For the portfolio section is used Instagram widget, but you can easily update it with another content source.
 
-<p align="center"><strong>Inspiration</strong>: <a href="http://cyberglot.me">Ju Gonçalves</a></p>
+## Live Demo
 
-***
+https://portfolio-central.github.io/jekyll-instagram-portfolio-theme/
+![Jekyll Instagram Portfolio Theme](./screenshot.png "Jekyll Instagram Portfolio Theme")
 
-<p align="center">
-    <b><a href="README.md#what-has-inside">What has inside?</a></b>
-    |
-    <b><a href="README.md#setup">Setup?</a></b>
-    |
-    <b><a href="README.md#settings">Settings</a></b>
-    |
-    <b><a href="README.md#tests">Tests</a></b>
-    |
-    <b><a href="README.md#donate">Donate</a></b>
-    |
-    <b><a href="README.md#problems">Problems</a></b>
-</p>
+## Showcase
 
-<p align="center">
-    <img src="https://raw.githubusercontent.com/sergiokopplin/violet/gh-pages/violet.png" />
-</p>
+The best usage examples:
 
-## What has inside?
+- [Pavel Guzenko](http://guzenko.org.ua)
+- [Victor Mikitenko](https://mikitenko-org-ua.github.io/site/)
+- [Anthony Fuentes](http://anthonyfuentes.us/)
+- [Serhii Grytsyshyn](https://grserhii.github.io/)
 
-- [Jekyll](https://jekyllrb.com/) and [Sass](http://sass-lang.com/)
-- Tests with [Travis](https://travis-ci.org/)
-- No JS. :sunglasses:
+To add your example: fork the repo, add new line to the list above and create a pull request.
 
-## Setup
+## Featured on
 
-0. :star: to the project. :metal:
-1. [Install Jekyll](http://jekyllrb.com), [NodeJS](https://nodejs.org/) and [Bundler](http://bundler.io/).
-2. Fork the project [Violet](https://github.com/sergiokopplin/violet/fork)
-3. Edit `_config.yml` with your data.
-4. `bundle install`
-5. `bundle exec jekyll serve`
-6. open in your browser: `http://localhost:4000`
+- [Template.net](https://www.template.net/cms-templates/jekyll/jekyll-themes-templates/)
+- [JekyllThemes.org](http://jekyllthemes.org/themes/instagram-portfolio-theme/)
 
-## Settings
+## Powered by
 
-You must fill some informations on `_config.yml` to customize your site.
+- [Jekyll](https://jekyllrb.com/)
+- [Bootstrap 4](http://v4-alpha.getbootstrap.com/)
+- [jQuery](https://jquery.com/)
+- [SnapWidget](https://snapwidget.com)
+- [Google Fonts: Lobster](https://fonts.google.com/specimen/Lobster)
+- [Font Awesome](http://fontawesome.io/)
+
+## Installation
+Install Jekyll:
 
 ```
-name: Jane Doe
-bio: 'A Girl who travels the world eating noodles'
-...
-
-and lot of other options.
+gem install jekyll bundler
 ```
 
-## Tests
+Install bundle dependiencies:
 
-You can test your app with:
+```
+bundle install
+```
 
-```bash
-bundle exec htmlproofer ./_site
-````
+When finished, run the dev server:
 
-## Donate
+```
+bundle exec jekyll serve
+```
 
-If you liked my work, buy me a coffee <3
+or just:
 
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=U7B6UM6QWLG7E)
+```
+jekyll serve
 
-## Problems?
+```
+To stop the server, use `CTRL+C`.
 
-Tell me on github or open a [issue](https://github.com/sergiokopplin/violet/issues/new).
+## Building front-end assets: styles and scripts
 
-#### Inspirations:
-- [Ju Gonçalves](http://cyberglot.me/)
+Install module dependencies:
 
----
+```
+npm install
+```
 
-[MIT](http://kopplin.mit-license.org/) License © Sérgio Kopplin
+Run the build script to generate updated front-end assets:
+
+```
+npm run build
+```
+
+Watch for changes and automatically rebuild assets (`CTRL+C` to stop):
+```
+npm run watch
+```

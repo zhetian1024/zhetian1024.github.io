@@ -1,22 +1,25 @@
-# main text of home
-name: Jane Doe
-bio: A Girl who travels the world eating noodles
+# Site settings
+# in the templates available like {{ site.myvariable }}.
+title: Clean portfolio theme for Jekyll powered by Bootstrap 4.
+email: your-email@domain.com
+brand: Your Name
+headline: Inventor, Engineer and Futurist
+description: > # this means to ignore newlines until "baseurl:"
+  New Site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://example.com" # the base hostname & protocol for your site
+copyright: 2016 Whatever Company, Inc. All Rights Reserved.
 
-# twitter summary info
-description: A blog about technology and stuff related
+# Build settings
+markdown: kramdown
 
-picture: assets/images/picture.jpg
+# Account ids
+snapwidget: 247552
 
-url: http://koppl.in/violet
-# your url: http://USERNAME.github.io
+# Contacts
+email: your.name@gmail.com
+phone: +1-800-555-2016
 
-# if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
-github: mygithub
-email: me@jane.doe
+# Tracking
+googleAnalitycsID: UA-83933844-1
 
-gems:
-  - jekyll-seo-tag
-
-exclude: [README.md, Gemfile, Gemfile.lock, _site, Rakefile, travis.sh, vendor]
